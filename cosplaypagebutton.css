@@ -1,0 +1,28 @@
+﻿.buttonc 
+{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttonc5 
+{
+  background-color: mediumpurple;
+  color: black;
+  border: 2px solid #555555;
+}
+
+
+.buttonc6
+{
+  background-color: black;
+  color: white;
+  border: 2px solid #555555;
+}
