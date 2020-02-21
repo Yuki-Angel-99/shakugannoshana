@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<style>
+ul#menu li 
+{
+  display:inline;
+}
+</style>
+
+<nav class="w3-bar w3-black">
+<font size="5">
+<a href="" class="w3-button w3-bar-item">灼眼的夏娜い的博客</a>
+<a href="https://space.bilibili.com/241296060" class="w3-button w3-bar-item">我的B站频道</a>     
+</nav>
+
+<section>
+
+<center><img class="mySlides" src="https://scontent.fsin4-1.fna.fbcdn.net/v/t1.0-9/p720x720/65711252_1048639031992254_217348752749363200_o.jpg?_nc_cat=110&_nc_ohc=mYd6G4Yoqq8AX95RhlN&_nc_ht=scontent.fsin4-1.fna&_nc_tp=6&oh=2904e8df51d74d7bd96fea0a05def9f6&oe=5EFB6731" style="width:25%">
+
+<img class="mySlides1" src="https://scontent.fsin4-1.fna.fbcdn.net/v/t1.0-9/p720x720/48428926_930923150430510_4817037059208249344_o.jpg?_nc_cat=106&_nc_ohc=lhRwCD68VAwAX_mBQ7G&_nc_ht=scontent.fsin4-
+1.fna&_nc_tp=6&oh=9245dddf1882321bf601ce59655071a6&oe=5EFD3A05" style="width:25%">
+<img class="mySlides1" src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/p720x720/48417928_930924583763700_4879994734237450240_o.jpg?_nc_cat=108&_nc_ohc=GA94vNF-bs4AX_6YqB8&_nc_ht=scontent-sin6-1.xx&_nc_tp=6&oh=36818284e752f776365d32a010de89f7&oe=5EB90A0A" style="width:25%">
+<img class="mySlides1" src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/p720x720/48419208_930924740430351_6266697162806001664_o.jpg?_nc_cat=100&_nc_ohc=k9ZN2VJpwGkAX-OHdMx&_nc_ht=scontent-sin6-1.xx&_nc_tp=6&oh=bd4fd447736e6368b69366762c1eab7e&oe=5EBA3AD0" style="width:25%">
+
+<img class="mySlides2" src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/p720x720/64743239_1040670066122484_7951779786995531776_o.jpg?_nc_cat=101&_nc_ohc=MoSfYhA_9m4AX99lLog&_nc_ht=scontent-sin6-1.xx&_nc_tp=6&oh=9660d38d5ef0a6c97f77360119e9b262&oe=5EF810A9" style="width:25%"></center>
+</section>
+
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2>Self Introduction</h2>
+  <p class="w3-opacity"><i>I love Cosplay</i></p>
+  <p>我是來自四川成都的Cosplayer: 灼眼的夏娜い</p>
+  <p>生日1999年3月18日（生肖卯兔）</p>
+  <p>双鱼座</p>
+</section>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "inline-block";
+  setTimeout(carousel, 3000);
+}
+
+var myIndex1 = 0;
+carousel1();
+
+function carousel1() {
+  var j;
+  var y = document.getElementsByClassName("mySlides1");
+  for (j = 0; j < y.length; j++) {
+    y[j].style.display = "none";
+  }
+  myIndex1++;
+  if (myIndex1 > y.length) {myIndex1 = 1}
+  y[myIndex1-1].style.display = "inline";
+  setTimeout(carousel1, 3000);
+}
+
+var myIndex2 = 0;
+carousel2();
+
+function carousel2() {
+  var k;
+  var z = document.getElementsByClassName("mySlides2");
+  for (k = 0; k < z.length; k++) {
+    z[k].style.display = "none";
+  }
+  myIndex2++;
+  if (myIndex2 > z.length) {myIndex2 = 1}
+  z[myIndex2-1].style.display = "inline-block";
+  setTimeout(carousel2, 1000);
+}
+</script>
+
+</html>
